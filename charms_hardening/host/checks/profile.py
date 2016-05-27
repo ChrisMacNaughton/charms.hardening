@@ -14,9 +14,9 @@
 # You should have received a copy of the GNU Lesser General Public License
 # along with charm-helpers.  If not, see <http://www.gnu.org/licenses/>.
 
-from charmhelpers.contrib.hardening.audits.file import TemplatedFile
-from charmhelpers.contrib.hardening.host import TEMPLATES_DIR
-from charmhelpers.contrib.hardening import utils
+from ccharms_hardening.audits.file import TemplatedFile
+from ccharms_hardening.host import TEMPLATES_DIR
+from ccharms_hardening import utils
 
 
 def get_audits():

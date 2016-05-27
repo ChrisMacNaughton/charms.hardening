@@ -25,12 +25,12 @@ from charmhelpers.core.hookenv import (
     INFO,
     WARNING,
 )
-from charmhelpers.contrib.hardening import utils
-from charmhelpers.contrib.hardening.audits.file import (
+from ccharms_hardening import utils
+from ccharms_hardening.audits.file import (
     FilePermissionAudit,
     TemplatedFile,
 )
-from charmhelpers.contrib.hardening.host import TEMPLATES_DIR
+from ccharms_hardening.host import TEMPLATES_DIR
 
 
 SYSCTL_DEFAULTS = """net.ipv4.ip_forward=%(net_ipv4_ip_forward)s

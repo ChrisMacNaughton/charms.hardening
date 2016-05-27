@@ -24,10 +24,10 @@ from charmhelpers.core.hookenv import (
     DEBUG,
     WARNING,
 )
-from charmhelpers.contrib.hardening.host.checks import run_os_checks
-from charmhelpers.contrib.hardening.ssh.checks import run_ssh_checks
-from charmhelpers.contrib.hardening.mysql.checks import run_mysql_checks
-from charmhelpers.contrib.hardening.apache.checks import run_apache_checks
+from charms_hardening.host.checks import run_os_checks
+from ccharms_hardening.ssh.checks import run_ssh_checks
+from charms_hardening.mysql.checks import run_mysql_checks
+from charms_hardening.apache.checks import run_apache_checks
 
 
 def harden(overrides=None):

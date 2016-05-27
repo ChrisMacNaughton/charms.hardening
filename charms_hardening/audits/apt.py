@@ -27,7 +27,7 @@ from charmhelpers.core.hookenv import (
     DEBUG,
     WARNING,
 )
-from charmhelpers.contrib.hardening.audits import BaseAudit
+from ccharms_hardening.audits import BaseAudit
 
 
 class AptConfig(BaseAudit):

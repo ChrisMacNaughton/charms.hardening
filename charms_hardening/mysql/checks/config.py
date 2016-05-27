@@ -21,13 +21,13 @@ from charmhelpers.core.hookenv import (
     log,
     WARNING,
 )
-from charmhelpers.contrib.hardening.audits.file import (
+from ccharms_hardening.audits.file import (
     FilePermissionAudit,
     DirectoryPermissionAudit,
     TemplatedFile,
 )
-from charmhelpers.contrib.hardening.mysql import TEMPLATES_DIR
-from charmhelpers.contrib.hardening import utils
+from ccharms_hardening.mysql import TEMPLATES_DIR
+from ccharms_hardening import utils
 
 
 def get_audits():

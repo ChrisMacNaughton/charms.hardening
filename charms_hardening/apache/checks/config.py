@@ -23,15 +23,15 @@ from charmhelpers.core.hookenv import (
     log,
     INFO,
 )
-from charmhelpers.contrib.hardening.audits.file import (
+from ccharms_hardening.audits.file import (
     FilePermissionAudit,
     DirectoryPermissionAudit,
     NoReadWriteForOther,
     TemplatedFile,
 )
-from charmhelpers.contrib.hardening.audits.apache import DisabledModuleAudit
-from charmhelpers.contrib.hardening.apache import TEMPLATES_DIR
-from charmhelpers.contrib.hardening import utils
+from ccharms_hardening.audits.apache import DisabledModuleAudit
+from ccharms_hardening.apache import TEMPLATES_DIR
+from ccharms_hardening import utils
 
 
 def get_audits():

@@ -20,8 +20,8 @@ from charmhelpers.core.hookenv import (
     log,
     INFO,
 )
-from charmhelpers.contrib.hardening.audits.file import NoSUIDSGIDAudit
-from charmhelpers.contrib.hardening import utils
+from ccharms_hardening.audits.file import NoSUIDSGIDAudit
+from ccharms_hardening import utils
 
 
 BLACKLIST = ['/usr/bin/rcp', '/usr/bin/rlogin', '/usr/bin/rsh',

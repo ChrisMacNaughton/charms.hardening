@@ -18,7 +18,7 @@ from charmhelpers.core.hookenv import (
     log,
     DEBUG,
 )
-from charmhelpers.contrib.hardening.ssh.checks import config
+from ccharms_hardening.ssh.checks import config
 
 
 def run_ssh_checks():
