@@ -1,0 +1,5 @@
+.tox
+.testrepository
+*.pyc
+charm.hardening.egg-info
+.eggs
