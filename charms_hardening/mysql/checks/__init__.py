@@ -18,7 +18,7 @@ from charmhelpers.core.hookenv import (
     log,
     DEBUG,
 )
-from ccharms_hardening.mysql.checks import config
+from charms_hardening.mysql.checks import config
 
 
 def run_mysql_checks():

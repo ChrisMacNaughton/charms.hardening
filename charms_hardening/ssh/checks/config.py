@@ -25,12 +25,12 @@ from charmhelpers.fetch import (
     apt_update,
 )
 from charmhelpers.core.host import lsb_release
-from ccharms_hardening.audits.file import (
+from charms_hardening.audits.file import (
     TemplatedFile,
     FileContentAudit,
 )
-from ccharms_hardening.ssh import TEMPLATES_DIR
-from ccharms_hardening import utils
+from charms_hardening.ssh import TEMPLATES_DIR
+from charms_hardening import utils
 
 
 def get_audits():

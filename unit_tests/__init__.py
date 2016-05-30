@@ -9,11 +9,11 @@ sys.modules['charmhelpers.core.hookenv'] = charmhelpers.core.hookenv
 sys.modules['charmhelpers.core.host'] = charmhelpers.core.host
 sys.modules['charmhelpers.core.templating'] = charmhelpers.core.templating
 sys.modules['charmhelpers.contrib'] = charmhelpers.contrib
-sys.modules['ccharms_hardening'] = ccharms_hardening
-sys.modules['ccharms_hardening.utils'] = (
-    ccharms_hardening.utils)
-sys.modules['ccharms_hardening.templating'] = (
-    ccharms_hardening.templating)
+sys.modules['charms_hardening'] = charms_hardening
+sys.modules['charms_hardening.utils'] = (
+    charms_hardening.utils)
+sys.modules['charms_hardening.templating'] = (
+    charms_hardening.templating)
 sys.modules['charmhelpers.contrib.network'] = charmhelpers.contrib.network
 sys.modules['charmhelpers.contrib.network.ip'] = (
     charmhelpers.contrib.network.ip)

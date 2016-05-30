@@ -18,7 +18,7 @@ from charmhelpers.core.hookenv import (
     log,
     DEBUG,
 )
-from ccharms_hardening.apache.checks import config
+from charms_hardening.apache.checks import config
 
 
 def run_apache_checks():

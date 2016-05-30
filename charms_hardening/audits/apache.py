@@ -25,7 +25,7 @@ from charmhelpers.core.hookenv import (
     ERROR,
 )
 
-from ccharms_hardening.audits import BaseAudit
+from charms_hardening.audits import BaseAudit
 
 
 class DisabledModuleAudit(BaseAudit):

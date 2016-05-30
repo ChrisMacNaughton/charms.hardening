@@ -40,12 +40,12 @@ from charmhelpers.core.hookenv import (
 )
 from charmhelpers.core import unitdata
 from charmhelpers.core.host import file_hash
-from ccharms_hardening.audits import BaseAudit
-from ccharms_hardening.templating import (
+from charms_hardening.audits import BaseAudit
+from charms_hardening.templating import (
     get_template_path,
     render_and_write,
 )
-from ccharms_hardening import utils
+from charms_hardening import utils
 
 
 class BaseFileAudit(BaseAudit):

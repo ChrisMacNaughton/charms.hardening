@@ -16,9 +16,9 @@
 
 from six import string_types
 
-from ccharms_hardening.audits.file import TemplatedFile
-from ccharms_hardening.host import TEMPLATES_DIR
-from ccharms_hardening import utils
+from charms_hardening.audits.file import TemplatedFile
+from charms_hardening.host import TEMPLATES_DIR
+from charms_hardening import utils
 
 
 def get_audits():

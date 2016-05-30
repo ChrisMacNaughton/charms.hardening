@@ -18,7 +18,7 @@ from charmhelpers.core.hookenv import (
     log,
     DEBUG,
 )
-from ccharms_hardening.host.checks import (
+from charms_hardening.host.checks import (
     apt,
     limits,
     login,

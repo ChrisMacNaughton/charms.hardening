@@ -25,7 +25,7 @@ from charmhelpers.core.hookenv import (
     WARNING,
 )
 from charms_hardening.host.checks import run_os_checks
-from ccharms_hardening.ssh.checks import run_ssh_checks
+from charms_hardening.ssh.checks import run_ssh_checks
 from charms_hardening.mysql.checks import run_mysql_checks
 from charms_hardening.apache.checks import run_apache_checks
 

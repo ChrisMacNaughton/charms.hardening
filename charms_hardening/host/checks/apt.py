@@ -14,8 +14,8 @@
 # You should have received a copy of the GNU Lesser General Public License
 # along with charm-helpers.  If not, see <http://www.gnu.org/licenses/>.
 
-from ccharms_hardening.utils import get_settings
-from ccharms_hardening.audits.apt import (
+from charms_hardening.utils import get_settings
+from charms_hardening.audits.apt import (
     AptConfig,
     RestrictedPackages,
 )

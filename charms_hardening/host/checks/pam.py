@@ -29,12 +29,12 @@ from charmhelpers.fetch import (
     apt_purge,
     apt_update,
 )
-from ccharms_hardening.audits.file import (
+from charms_hardening.audits.file import (
     TemplatedFile,
     DeletedFile,
 )
-from ccharms_hardening import utils
-from ccharms_hardening.host import TEMPLATES_DIR
+from charms_hardening import utils
+from charms_hardening.host import TEMPLATES_DIR
 
 
 def get_audits():
