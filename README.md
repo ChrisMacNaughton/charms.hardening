@@ -1,6 +1,6 @@
-# charms.hardening [![Build Status](https://travis-ci.org/openstack-charmers/charms.hardening.svg?branch=master)](https://travis-ci.org/openstack-charmers/charms.hardening)
+# charms.hardening [![Build Status](https://travis-ci.org/ChrisMacNaughton/charms.hardening.svg?branch=master)](https://travis-ci.org/ChrisMacNaughton/charms.hardening)
 
-Helpers for building layered, reactive openstack charms.
+Helpers for building hardened charms.
 
 # Support and discussions
 

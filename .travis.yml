@@ -1,7 +1,7 @@
 language: python
 install:
  - pip install tox
-script: tox
-cache:
-    directories:
-        - $HOME/.cache/pip
+ - sudo apt-get install -yq python-setuptools python-apt python3-apt
+script: make clean && make test
+sudo: required
+dist: trusty
