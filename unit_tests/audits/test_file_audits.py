@@ -275,7 +275,7 @@ KexAlgorithms diffie-hellman-group-exchange-sha256
 CONTENTS_FAIL = """Ciphers aes256-ctr,aes192-ctr,aes128-ctr
 MACs hmac-sha2-512,hmac-sha2-256,hmac-ripemd160
 KexAlgorithms diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1
-"""
+"""  # noqa
 
 
 class FileContentAuditTestCase(TestCase):
