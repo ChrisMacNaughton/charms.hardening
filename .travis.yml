@@ -5,3 +5,8 @@ script: tox
 cache:
     directories:
         - $HOME/.cache/pip
+addons:
+  apt:
+    packages:
+    - python-distutile-extra
+    - python3-distutils-extra
