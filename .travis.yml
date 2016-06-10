@@ -5,3 +5,9 @@ script: tox
 cache:
     directories:
         - $HOME/.cache/pip
+addons:
+  apt:
+    packages:
+    - python-apt
+    - python3-apt
+distro: trusty
