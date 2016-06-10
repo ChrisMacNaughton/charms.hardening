@@ -8,5 +8,5 @@ cache:
 addons:
   apt:
     packages:
-    - python-distutile-extra
-    - python3-distutils-extra
+    - python-apt
+    - python3-apt
